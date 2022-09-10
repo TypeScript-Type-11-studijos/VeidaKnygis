@@ -1,9 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TestButton from './TestButton'
 
 const App = () => (
   <div className="App">
+    <TestButton />
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
